@@ -24,3 +24,5 @@ Different tests:
 > D : Optical SAR
 
 > E : Optical nDSM NDVI (class 'shadow included')
+## Postclassification
+Computation of neighborhood matrix at the segment level. Importing of neighborhood matrix, segment labels and segment statistics in PostGis database. Computing for each segment the percentage of borders shared with different classes. Reclassification rules according the neighborhing and segment statistics/informations. 
